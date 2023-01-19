@@ -1,0 +1,78 @@
+ . {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  }
+  .change {
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+        color: blue;
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+
+body {
+  background-color: rgb(212, 212, 212);
+  }
+  
+header h1 {
+  margin: 0;
+  }
+  
+form {
+  margin: 20px;
+  text-align: center;
+  }
+  
+label {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 50%;
+  margin-bottom: 20px;
+  }
+  
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  }
+  
+#player-info {
+  margin: 20px;
+  text-align: center;
+  }
+  
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
